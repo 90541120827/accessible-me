@@ -1,6 +1,6 @@
 body {
   font-family: 'Roboto', Helvetica, sans-serif;
-  background-color: grey;
+  background-color: #f1f1f1; /* Changed from 'grey' to a more accessible color */
   margin: 0;
   padding: 0;
 }
@@ -22,6 +22,7 @@ h6 {
 
 img {
   width: 100%;
+  display: block; /* Added to ensure proper vertical alignment of images */
 }
 
 .main-nav ul {
@@ -50,6 +51,8 @@ form textarea {
   width: 100%;
   margin-bottom: 1rem;
   padding: .5rem 1rem;
+  background-color: white; /* Added to improve contrast for accessibility */
+  color: black; /* Added to improve contrast for accessibility */
 }
 
 form textarea {
@@ -57,6 +60,8 @@ form textarea {
   max-height: 150px;
   height: 150px;
   resize: none;
+  background-color: white; /* Added to improve contrast for accessibility */
+  color: black; /* Added to improve contrast for accessibility */
 }
 
 form button {
@@ -64,8 +69,11 @@ form button {
   border: 2px solid black;
   padding: 1rem;
   text-transform: uppercase;
+  color: black; /* Added to improve contrast for accessibility */
 }
 
 .site-footer {
   padding: 2rem 0;
+  background-color: #333; /* Added to improve contrast for accessibility */
+  color: white; /* Added to improve contrast for accessibility */
 }
